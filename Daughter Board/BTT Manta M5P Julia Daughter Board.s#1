@@ -14815,7 +14815,7 @@ CONN_03
 <part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1"/>
 <part name="X1" library="con-wago-508" library_urn="urn:adsk.eagle:library:196" deviceset="W237-02P" device="" package3d_urn="urn:adsk.eagle:package:10734/1"/>
 <part name="FIL_SEN" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="455-1750-1-ND"/>
-<part name="X10" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-03-PIN" device="-LONG-PAD">
+<part name="X9" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-04-PIN" device="-LONG-PAD">
 <attribute name="VALUE1" value="FIL_SEN"/>
 </part>
 </parts>
@@ -15019,16 +15019,19 @@ CONN_03
 <attribute name="VALUE" x="119.634" y="215.9" size="1.778" layer="96" font="vector" rot="R270"/>
 <attribute name="NAME" x="132.588" y="215.9" size="1.778" layer="95" font="vector" rot="R270"/>
 </instance>
-<instance part="X10" gate="-1" x="160.02" y="342.9" smashed="yes">
-<attribute name="NAME" x="162.56" y="342.138" size="1.524" layer="95"/>
-<attribute name="VALUE" x="159.258" y="344.297" size="1.778" layer="96" display="off"/>
-<attribute name="VALUE1" x="160.02" y="345.44" size="1.778" layer="96"/>
+<instance part="X9" gate="-1" x="187.96" y="340.36" smashed="yes">
+<attribute name="NAME" x="190.5" y="339.598" size="1.524" layer="95"/>
+<attribute name="VALUE" x="187.198" y="341.757" size="1.778" layer="96" display="off"/>
+<attribute name="VALUE1" x="187.96" y="342.9" size="1.778" layer="96"/>
 </instance>
-<instance part="X10" gate="-2" x="160.02" y="340.36" smashed="yes">
-<attribute name="NAME" x="162.56" y="339.598" size="1.524" layer="95"/>
+<instance part="X9" gate="-2" x="187.96" y="337.82" smashed="yes">
+<attribute name="NAME" x="190.5" y="337.058" size="1.524" layer="95"/>
 </instance>
-<instance part="X10" gate="-3" x="160.02" y="337.82" smashed="yes">
-<attribute name="NAME" x="162.56" y="337.058" size="1.524" layer="95"/>
+<instance part="X9" gate="-3" x="187.96" y="335.28" smashed="yes">
+<attribute name="NAME" x="190.5" y="334.518" size="1.524" layer="95"/>
+</instance>
+<instance part="X9" gate="-4" x="187.96" y="332.74" smashed="yes">
+<attribute name="NAME" x="190.5" y="331.978" size="1.524" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -15151,11 +15154,6 @@ CONN_03
 <pinref part="FIL_SEN" gate="J$1" pin="2"/>
 <wire x1="127" y1="205.74" x2="127" y2="198.12" width="0.1524" layer="91"/>
 <label x="127" y="198.12" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="X10" gate="-2" pin="S"/>
-<wire x1="157.48" y1="340.36" x2="149.86" y2="340.36" width="0.1524" layer="91"/>
-<label x="149.86" y="340.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="Y_LIM" class="0">
@@ -15443,11 +15441,6 @@ CONN_03
 <wire x1="129.54" y1="205.74" x2="129.54" y2="198.12" width="0.1524" layer="91"/>
 <label x="129.54" y="198.12" size="1.778" layer="95" rot="R90"/>
 </segment>
-<segment>
-<pinref part="X10" gate="-1" pin="S"/>
-<wire x1="157.48" y1="342.9" x2="149.86" y2="342.9" width="0.1524" layer="91"/>
-<label x="149.86" y="342.9" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="N$2" class="0">
 <segment>
@@ -15473,10 +15466,29 @@ CONN_03
 <wire x1="124.46" y1="205.74" x2="124.46" y2="198.12" width="0.1524" layer="91"/>
 <label x="124.46" y="195.58" size="1.778" layer="95" rot="R90"/>
 </segment>
+</net>
+<net name="N$1" class="0">
 <segment>
-<pinref part="X10" gate="-3" pin="S"/>
-<wire x1="157.48" y1="337.82" x2="149.86" y2="337.82" width="0.1524" layer="91"/>
-<label x="149.86" y="337.82" size="1.778" layer="95"/>
+<pinref part="X9" gate="-1" pin="S"/>
+<wire x1="185.42" y1="340.36" x2="177.8" y2="340.36" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="X9" gate="-2" pin="S"/>
+<wire x1="185.42" y1="337.82" x2="177.8" y2="337.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="X9" gate="-3" pin="S"/>
+<wire x1="185.42" y1="335.28" x2="177.8" y2="335.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="X9" gate="-4" pin="S"/>
+<wire x1="185.42" y1="332.74" x2="177.8" y2="332.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

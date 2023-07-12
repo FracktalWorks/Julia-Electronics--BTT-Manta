@@ -17236,7 +17236,7 @@
 <text x="21.082" y="29.718" size="1.016" layer="25">B0-</text>
 <text x="35.052" y="24.13" size="1.778" layer="25">H0+</text>
 <text x="41.148" y="24.13" size="1.778" layer="25">H0-</text>
-<text x="6.096" y="61.722" size="1.4224" layer="25" rot="R90">Daughter Board V4</text>
+<text x="21.336" y="47.244" size="1.4224" layer="25">Daughter Board V4</text>
 </plain>
 <libraries>
 <library name="Wurth_Elektronik_Electromechanic_FPC_Connectors_&amp;_Flat_Flexible_Cable_rev15b">
